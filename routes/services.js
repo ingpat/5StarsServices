@@ -7,4 +7,10 @@ router.get('/', function(req, res, next) {
 			res.render('services/index');
 
 });
+
+router.get('/servicetraiteur', function(req, res, next) {
+		
+			res.render('services/servicetraiteur');
+
+});
 module.exports = router;
